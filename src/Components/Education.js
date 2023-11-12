@@ -11,7 +11,7 @@ const Education = () => {
     {
       cardTitle: "DevOps and Server Administration",
       cardSubtitle: "Platzi",
-      coursesHead: "Courses: ",
+      coursesHead: "",
       cardDetailedText: [
 
       ].map(function (course) {
