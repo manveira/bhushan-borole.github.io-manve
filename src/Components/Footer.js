@@ -17,8 +17,6 @@ const Footer = () => {
           </a>
         </div>
         <div class="credits" style={{ color: "#74808a" }}>
-          Made with <span style={{ color: "#e25555" }}>&hearts;</span> using
-          React
         </div>
       </div>
     </footer>
