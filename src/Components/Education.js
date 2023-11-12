@@ -22,7 +22,7 @@ const Education = () => {
     {
       cardTitle: "Electronic Engineer",
       cardSubtitle: "Universidad Autónoma",
-      cardDetailedText: 
+      cardDetailedText: "",
       date: "2013 - 2020",
     },
   ];
