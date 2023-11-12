@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: ["Jenkins", "AWS", "EC2", "Terraform", "Linux"],
       links: [
         {
-          url: "https://github.com/TCD-ASE-6/Nuharc",
+          url: "https://github.com/manveira/project1_deploy_jenkins_ec2",
           text: "View Source Code",
         },
       ],
