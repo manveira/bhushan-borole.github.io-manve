@@ -9,10 +9,17 @@ export default function Experience() {
   const items = [
     {
       date: "September 2022 - Present",
-      cardTitle: "Microsoft",
-      cardSubtitle: "Software Engineer",
+      cardTitle: "DevOps Engineer",
+      cardSubtitle: "LULOBANK",
       cardDetailedText: [
-        "Developing automated systems that detect security issues and manage workflows across Azure Identity services on a global scale.",
+        "Management and use AWS's Cloud provider services range such as EC2, Lambda, S3, Apigateway, DynamoDB, RDS, Cloudwatch, IAM, ECS, EKS, Eventbridge, SQS, ASG, Batch, cognito, glue job, ECR, Elasticache, Systems Manager, secrets Manager, KMS, Step function, SNS, Security groups, Transit gateway, VPC, Subnet, Keycloak, ELB, NLB.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         "Implement privacy-enhancing technologies to ensure compliance with applicable privacy laws and regulations.",
       ].map(function (text) {
         return <li>{text}</li>;
@@ -23,14 +30,15 @@ export default function Experience() {
       cardTitle: "System Administrator",
       cardSubtitle: "CAFETO SOFTWARE",
       cardDetailedText: [
-        "Collected JSON data by web-scraping, using open API end points and storing it in a RDBMS.",
-        ".",
-        ".",
-        ".",
-        ".",
-        ".",
-        ".",
-        ".",
+        "Cloud computing such as Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
+        "Version control such as GIT, GitHub and GitLab.",
+        "Containerization using Docker.",
+        "CI/CD automation servers such as Circle CI and Jenkins.",
+        "Cost-based reporting on enterprise software.",
+        "Help desk incident management and troubleshooting.",
+        "Licensing, permissions and registration of company users.",
+        "Management and centralization users's digital biometrics.",
+        "Contact with providers to execution business projects.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
