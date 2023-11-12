@@ -15,20 +15,16 @@ import RemoveIcon from "@material-ui/icons/Remove";
 const Projects = () => {
   const items = [
     {
-      cardTitle: "Nuharc - Smart City Disaster Report App",
+      cardTitle: "Deploy Jenkins on EC2 AWS",
       cardDetailedText: [
-        "App to simulate disasters in Dublin.",
-        "Realtime traffic reporting upto 300ms latency.",
-        "Combines different velocity data streams to give a 99.9% accurate data.",
-        "Real time changes of disasters and re-routing of current users using sockets implementation.",
-        "All Emergency services directed towards the disaster as soon as someone reports.",
-        "Entire application is running in a dockerized container and hosted in Azure VM.",
-        "From scratch implementation of Load Balancing Algorithm (Weighted Round Robin) with Healthchecks.",
-        "All data is stored in NoSQL MongoDB.",
+        "Project to deploy CI/CD server Jenkins",
+        "The infrastructure was provisioned using Terraform",
+        "The instance EC2 was based in Linux",
+        "Finally the communication to the EC2 was by SSH to install Jenkins and other dependencies",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["MongoDB", "Express JS", "React JS", "Node JS"],
+      technologies: ["Jenkins", "AWS", "EC2", "Terraform", "Linux"],
       links: [
         {
           url: "https://github.com/TCD-ASE-6/Nuharc",
