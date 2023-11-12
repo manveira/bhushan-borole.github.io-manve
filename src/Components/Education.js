@@ -9,27 +9,21 @@ import StarIcon from "@material-ui/icons/Star";
 const Education = () => {
   const items = [
     {
-      cardTitle: "Trinity College Dublin",
-      cardSubtitle: "MSc - Intelligent Systems",
+      cardTitle: "DevOps and Server Administration",
+      cardSubtitle: "Platzi",
       coursesHead: "Courses: ",
       cardDetailedText: [
-        "Machine Learning",
-        "Information Retrieval and Web Search",
-        "Data Analytics",
-        "Knowledge and Data Engineering",
-        "Advanced Software Engineering",
-        "Artificial Intelligence",
-        "Text Analytics",
+
       ].map(function (course) {
         return <li>{course}</li>;
       }),
       date: "2021 - 2022",
     },
     {
-      cardTitle: "St. Francis Institute Of Technology",
-      cardSubtitle: "BE in Computer Engineering",
-      cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
-      date: "2016 - 2020",
+      cardTitle: "Electronic Engineer",
+      cardSubtitle: "Universidad Autónoma",
+      cardDetailedText: 
+      date: "2013 - 2020",
     },
   ];
 
