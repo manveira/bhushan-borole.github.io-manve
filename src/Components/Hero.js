@@ -51,14 +51,14 @@ export default function Hero() {
             <Button
               variant="outlined"
               target="_blank"
-              href="https://drive.google.com/file/d/1XVfSZNcC6P9QlmEgA3s1Ebi23kydQGYj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZRCNzNHIfFu8jjGbYykZLrjPRADtRFfl/view?usp=sharing"
               startIcon={<CloudDownloadIcon />}
               style={{
                 color: "rgb(116, 128, 138)",
                 borderColor: "rgb(116, 128, 138)",
               }}
             >
-              Download Resume
+              View or Download Resume
             </Button>
           </Col>
           <Col
