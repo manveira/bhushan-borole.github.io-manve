@@ -19,33 +19,36 @@ export default function Experience() {
       }),
     },
     {
-      date: "November 2020 – February 2021",
-      cardTitle: "Mobisy Technologies",
-      cardSubtitle: "Research & Development Intern",
+      date: "NOV 2021 - SEPT 2022",
+      cardTitle: "System Administrator",
+      cardSubtitle: "CAFETO SOFTWARE",
       cardDetailedText: [
         "Collected JSON data by web-scraping, using open API end points and storing it in a RDBMS.",
-        "Responsible for building SKU Classification system using the collected data.",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "September 2019 – October 2019",
-      cardTitle: "Techskills IT Consultants",
-      cardSubtitle: "Backend Developer",
+      date: "JUN 2021 - NOV 2021",
+      cardTitle: "Front Integral Technical Support Engineer",
+      cardSubtitle: "TLMARK",
       cardDetailedText: [
-        "Developed applications using Spring Framework for Backend Restful API’s.",
-        "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
+        "Linux server management from command line (CLI) and remote connection by SSH or Putty configuration and management.",
+        "Creation and Bash scripting handling for automation tasks and performances.",
+        "Support at enterprise level PYMES, CORPORATE HFC, OPTICAL FIBER, FTTX, MPLS, DTH and WTTH services.",
+        "ºBuilding Incidents, Interactions, massive failures, reports, scaling and resolution support cases.",
+        "CRM, SERVICE MANAGER and FO DIAGNOSTICATOR apps management.",
+        "Support related with LAN, WAN, Firewall, VPNs Forticlient, repeaters, allocation of fixed public IPs, DMZ, port forwarding and HUAWEI MA5675.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-    },
-    {
-      date: "August 2018 – January 2019",
-      cardTitle: "TechSkills IT Consultants",
-      cardSubtitle: "Fullstack Developer Intern",
-      cardDetailedText:
-        "Developed a Meeting App website which handles all the data that happens in a meeting. In this project I developed several REST API's using Spring Boot and used the MVC architecture. These API's are being consumed in the frontend.",
     },
   ];
 
