@@ -12,16 +12,16 @@ export default function Hero() {
       <Container data-aos="zoom-in" data-aos-delay="500">
         <Row>
           <Col lg={6} className="item-center">
-            <h1>Bhushan Borole</h1>
+            <h1>Jesús Veira</h1>
             <br />
             <p>
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Developer, Tabla Player, Gamer"
+                data-typed-items="DevOps Engineer, Cloud enthusiast, Passionate"
               >
                 <Typed
-                  strings={["Developer", "Tabla Player", "Gamer"]}
+                  strings={["DevOps Engineer", "Cloud enthusiast", "Passionate"]}
                   loop
                   typeSpeed={90}
                   backSpeed={60}
