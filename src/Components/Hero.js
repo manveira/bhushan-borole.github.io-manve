@@ -58,8 +58,21 @@ export default function Hero() {
                 borderColor: "rgb(116, 128, 138)",
               }}
             >
-              View or Download Resume
+              View or Download Resume English
             </Button>
+
+            <Button
+              variant="outlined"
+              target="_blank"
+              href="https://drive.google.com/file/d/1ZFL3W5fpqoGymTmQC00KcfUU4aHu9yAv/view?usp=sharing"
+              startIcon={<CloudDownloadIcon />}
+              style={{
+                color: "rgb(116, 128, 138)",
+                borderColor: "rgb(116, 128, 138)",
+              }}
+            >
+              View or Download Resume Spanish
+            </Button>                
           </Col>
           <Col
             lg={6}
