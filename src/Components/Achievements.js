@@ -11,7 +11,6 @@ const Achievements = () => {
             img: tf_badge,
             cardTitle: "Tensorflow Developer Certificate",
             cardText: "Issued on: <br/> April 18, 2020",
-            btnText: "See Credential",
             btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
         },
         {
