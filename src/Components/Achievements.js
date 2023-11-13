@@ -1,7 +1,10 @@
 import Devops_profesional from "./images/Devops_profesional.png";
-import mta from "./images/mta.png";
-import ocajp from "./images/ocajp.png";
-import google_assistant from "./images/google_assistant.png";
+import Admin from "./images/Admin.png";
+import Linux from "./images/Linux.png";
+import aws from "./images/aws.png";
+import docker from "./images/docker.png";
+import kubernetes from "./images/kubernetes.png";
+import terraform from "./images/terraform.png";
 import Button from "@material-ui/core/Button";
 import Card from "react-bootstrap/Card";
 
@@ -10,16 +13,16 @@ const Achievements = () => {
         {
             img: Devops_profesional,
             cardTitle: "DevOps Professional Course",
-            cardText: "Issued on: <br/> April 18, 2020",
+            cardText: "Issued on: <br/> July 27, 2022",
             btnText: "See Diploma",
             btnUrl: "https://platzi.com/p/manveira159/curso/1431-devops/diploma/detalle/",
         },
         {
-            img: mta,
-            cardTitle: "Microsoft Technical Associate",
-            cardText: "Issued on: <br/> June 14, 2019",
-            btnText: "See Credential",
-            btnUrl: "https://www.youracclaim.com/badges/a5e09eea-6e4e-4934-bc2e-1f68679c1bb3/linked_in_profile",
+            img: Admin,
+            cardTitle: "Administración de servidores y DevOps",
+            cardText: "Issued on: <br/> August 1, 2022",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
         },
         {
             img: ocajp,
