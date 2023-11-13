@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 const Achievements = () => {
     const items = [
         {
-            img: Devops-profesional,
+            img: Devops_profesional,
             cardTitle: "DevOps Professional Course",
             cardText: "Issued on: <br/> April 18, 2020",
             btnText: "See Diploma",
