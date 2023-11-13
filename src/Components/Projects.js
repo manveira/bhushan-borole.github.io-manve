@@ -18,6 +18,7 @@ const Projects = () => {
       cardTitle: "Deploy Jenkins on EC2 AWS",
       cardDetailedText: [
         "Project to deploy CI/CD server Jenkins",
+        "Main idea was to have a CI/CD server on a remote instance to automate workflows to build applications and software.",
         "The infrastructure was provisioned using Terraform",
         "The instance EC2 was based in Linux",
         "Finally the communication to the EC2 was by SSH to install Jenkins and other dependencies",
@@ -33,28 +34,18 @@ const Projects = () => {
       ],
     },
     {
-      cardTitle: "Woyse - A Multilingual Entity Recognition System",
+      cardTitle: "Web app using Nginx",
       cardDetailedText: [
-        "Build an end-to-end intent and entity recognition microservice in Django.",
-        "Built using Python as a main stack, and used Tornado for socket connection.",
+        "Project to build an app using Nginx",
+        "Main idea was to expose a local application through a web server such as Nginx to receive traffic and be consumed by users.",
+        "The infrastructure was provisioned using Terraform"
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
-      links: [],
-    },
-    {
-      cardTitle: "Limitless File Sharing App",
-      cardDetailedText: [
-        "App that allows you to share ANY amount of data from one system to another.",
-        "The file is encoded using base64, then it is split into chunks and uploaded to Google Sheets. While downloading the serial order is maintained and it is decoded at client’s end.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
-      technologies: ["Python", "Flask", "API"],
+      technologies: ["Nginx", "Web app", "Terraform"],
       links: [
         {
-          url: "https://github.com/vinay-deshmukh/Limitless-Client",
+          url: "https://github.com/manveira/project2_web_app_using_nginx",
           text: "View Source Code",
         },
       ],
@@ -88,33 +79,6 @@ const Projects = () => {
         {
           url: "https://github.com/bhushan-borole/text-summarization",
           text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Meeting App",
-      cardDetailedText:
-        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
-      technologies: ["HTML", "CSS", "JS", "PHP"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/meeting-app",
-          text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Justalk",
-      cardDetailedText: "A chat application made using React and Firebase Auth",
-      technologies: ["React JS", "Firebase"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/justalk",
-          text: "View Source Code",
-        },
-        {
-          url: "https://bhushan-borole.github.io/justalk/",
-          text: "View Demo",
         },
       ],
     },
