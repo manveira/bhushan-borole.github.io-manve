@@ -8,10 +8,11 @@ import Card from "react-bootstrap/Card";
 const Achievements = () => {
     const items = [
         {
-            img: tf_badge,
-            cardTitle: "Tensorflow Developer Certificate",
+            img: Devops-profesional,
+            cardTitle: "DevOps Professional Course",
             cardText: "Issued on: <br/> April 18, 2020",
-            btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/curso/1431-devops/diploma/detalle/",
         },
         {
             img: mta,
