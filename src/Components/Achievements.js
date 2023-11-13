@@ -40,24 +40,24 @@ const Achievements = () => {
         },
         {
             img: terraform,
-            cardTitle: "Administración de servidores y DevOps",
-            cardText: "Issued on: <br/> August 1, 2022",
+            cardTitle: "Infrastructure as a code using Terraform",
+            cardText: "Issued on: <br/> July 21, 2022",
             btnText: "See Diploma",
-            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+            btnUrl: "https://platzi.com/p/manveira159/curso/1712-devops-terraform/diploma/detalle/",
         }, 
         {
             img: kubernetes,
-            cardTitle: "Administración de servidores y DevOps",
-            cardText: "Issued on: <br/> August 1, 2022",
+            cardTitle: "Kubernetes course",
+            cardText: "Issued on: <br/> July 19, 2022",
             btnText: "See Diploma",
-            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+            btnUrl: "https://platzi.com/p/manveira159/curso/1565-k8s/diploma/detalle/",
         },
         {
             img: docker,
-            cardTitle: "Administración de servidores y DevOps",
-            cardText: "Issued on: <br/> August 1, 2022",
+            cardTitle: "Docker course",
+            cardText: "Issued on: <br/> July 9, 2022",
             btnText: "See Diploma",
-            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+            btnUrl: "https://platzi.com/p/manveira159/curso/2066-docker/diploma/detalle/",
         },        
     ];
     return (
