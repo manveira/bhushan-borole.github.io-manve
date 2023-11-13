@@ -46,9 +46,7 @@ export default function Hero() {
               <a href="mailto:manveira159@gmail.com">
                 <i class="bx bx-envelope"></i>
               </a>
-            </div>
-            <br />
-            <br />        
+            </div>       
             <Button
               variant="outlined"
               target="_blank"
