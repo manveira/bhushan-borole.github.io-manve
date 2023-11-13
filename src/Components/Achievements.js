@@ -1,4 +1,4 @@
-import tf_badge from "./images/tf_badge.png";
+import Devops_profesional from "./images/Devops_profesional.png";
 import mta from "./images/mta.png";
 import ocajp from "./images/ocajp.png";
 import google_assistant from "./images/google_assistant.png";
