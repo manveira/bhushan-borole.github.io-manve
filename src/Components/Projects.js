@@ -51,33 +51,17 @@ const Projects = () => {
       ],
     },
     {
-      cardTitle: "Finance Assistant Chatbot",
+      cardTitle: "Platzi Scripts",
       cardDetailedText: [
-        "Created a chatbot for Fin-tech companies for helping students regarding finances.",
-        "Tech stack comprises of Django, Rasa NLU and Postgresql.",
+        "Project to automate tasks and dependencies",
+        "Installation, administration and set up about environments for workloads.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
+      technologies: ["NodeJs", "Ngrok", "Tests"],
       links: [
         {
-          url: "https://github.com/Sitanshuk/HackPython",
-          text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Text Summarization",
-      cardDetailedText: [
-        "It summarizes the given text into number of sentences or words in English and Punjabi.",
-        "Created in Flask and deployed on Google App Engine.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
-      technologies: ["Python", "GCP"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/text-summarization",
+          url: "https://github.com/manveira/platzi-scripts",
           text: "View Source Code",
         },
       ],
