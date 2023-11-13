@@ -1,10 +1,10 @@
 import Devops_profesional from "./images/Devops_profesional.png";
 import Admin from "./images/Admin.png";
-import Linux from "./images/Linux.png";
 import aws from "./images/aws.png";
-import docker from "./images/docker.png";
-import kubernetes from "./images/kubernetes.png";
+import Linux from "./images/Linux.png";
 import terraform from "./images/terraform.png";
+import kubernetes from "./images/kubernetes.png";
+import docker from "./images/docker.png";
 import Button from "@material-ui/core/Button";
 import Card from "react-bootstrap/Card";
 
@@ -25,17 +25,40 @@ const Achievements = () => {
             btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
         },
         {
-            img: ocajp,
+            img: aws,
             cardTitle: "Oracle Certified Programmer",
             cardText: "Issued on: <br/> July 20, 2018",
             btnText: "See Credential",
             btnUrl: "https://www.youracclaim.com/badges/caf3f573-a61d-4e0e-8560-5353a6a83693/linked_in_profile",
         },
         {
-            img: google_assistant,
-            cardTitle: "Google Assistant Developer",
-            cardText: "Developed a game called Amazing Riddles.",
+            img: Linux,
+            cardTitle: "Administración de servidores y DevOps",
+            cardText: "Issued on: <br/> August 1, 2022",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
         },
+        {
+            img: terraform,
+            cardTitle: "Administración de servidores y DevOps",
+            cardText: "Issued on: <br/> August 1, 2022",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+        }, 
+        {
+            img: kubernetes,
+            cardTitle: "Administración de servidores y DevOps",
+            cardText: "Issued on: <br/> August 1, 2022",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+        },
+        {
+            img: docker,
+            cardTitle: "Administración de servidores y DevOps",
+            cardText: "Issued on: <br/> August 1, 2022",
+            btnText: "See Diploma",
+            btnUrl: "https://platzi.com/p/manveira159/ruta/4-servidores/diploma/detalle/",
+        },        
     ];
     return (
         <section id="achievements" class="about background-alt">
