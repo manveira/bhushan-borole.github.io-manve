@@ -8,7 +8,7 @@ export default function About() {
     <section id="about" class="about background-alt">
       <Container data-aos="fade-up">
         <div class="section-title">
-          <h2>About</h2>
+          <h2>About me</h2>
         </div>
 
         <Row>
