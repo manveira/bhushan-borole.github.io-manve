@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.73ca1264.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.0e837144.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.0e837144.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.178bd63b.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.178bd63b.js.map",
+    "static/css/2.1fa1194e.chunk.css": "/my-portfolio/static/css/2.1fa1194e.chunk.css",
+    "static/js/2.239696d1.chunk.js": "/my-portfolio/static/js/2.239696d1.chunk.js",
+    "static/js/2.239696d1.chunk.js.map": "/my-portfolio/static/js/2.239696d1.chunk.js.map",
+    "static/js/3.a80b4915.chunk.js": "/my-portfolio/static/js/3.a80b4915.chunk.js",
+    "static/js/3.a80b4915.chunk.js.map": "/my-portfolio/static/js/3.a80b4915.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/2.1fa1194e.chunk.css.map": "/my-portfolio/static/css/2.1fa1194e.chunk.css.map",
+    "static/css/main.73ca1264.chunk.css.map": "/my-portfolio/static/css/main.73ca1264.chunk.css.map",
+    "static/js/2.239696d1.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.239696d1.chunk.js.LICENSE.txt",
+    "static/media/6.dca7d938.jpg": "/my-portfolio/static/media/6.dca7d938.jpg",
+    "static/media/Admin.3b6f0bae.png": "/my-portfolio/static/media/Admin.3b6f0bae.png",
+    "static/media/Devops_profesional.88d73b19.png": "/my-portfolio/static/media/Devops_profesional.88d73b19.png",
+    "static/media/Linux.a7851fa8.png": "/my-portfolio/static/media/Linux.a7851fa8.png",
+    "static/media/aws.4633e164.png": "/my-portfolio/static/media/aws.4633e164.png",
+    "static/media/bhushan_2.abc7e6a0.jpeg": "/my-portfolio/static/media/bhushan_2.abc7e6a0.jpeg",
+    "static/media/bootstrap-icons.css": "/my-portfolio/static/media/bootstrap-icons.7d38a258.woff",
+    "static/media/boxicons.min.css": "/my-portfolio/static/media/boxicons.cbd149c5.ttf",
+    "static/media/docker.d92d3c5d.png": "/my-portfolio/static/media/docker.d92d3c5d.png",
+    "static/media/kubernetes.4233fd2a.png": "/my-portfolio/static/media/kubernetes.4233fd2a.png",
+    "static/media/terraform.cc765fcd.png": "/my-portfolio/static/media/terraform.cc765fcd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.178bd63b.js",
+    "static/css/2.1fa1194e.chunk.css",
+    "static/js/2.239696d1.chunk.js",
+    "static/css/main.73ca1264.chunk.css",
+    "static/js/main.0e837144.chunk.js"
+  ]
+}
