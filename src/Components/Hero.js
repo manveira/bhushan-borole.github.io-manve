@@ -51,7 +51,7 @@ export default function Hero() {
             <Button
               variant="outlined"
               target="_blank"
-              href="https://drive.google.com/file/d/1ZRCNzNHIfFu8jjGbYykZLrjPRADtRFfl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HS-GjFO7nqP1BLxs1c4XFEguxn3fxaZH/view"
               startIcon={<CloudDownloadIcon />}
               style={{
                 color: "rgb(116, 128, 138)",
@@ -64,7 +64,7 @@ export default function Hero() {
             <Button
               variant="outlined"
               target="_blank"
-              href="https://drive.google.com/file/d/1ZFL3W5fpqoGymTmQC00KcfUU4aHu9yAv/view?usp=sharing"
+              href="https://drive.google.com/file/d/120-4i7YNr_ZTUxscIRTJD1FPoHE8ii4u/view"
               startIcon={<CloudDownloadIcon />}
               style={{
                 color: "rgb(116, 128, 138)",
