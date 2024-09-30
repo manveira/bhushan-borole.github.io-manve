@@ -15,6 +15,26 @@ import RemoveIcon from "@material-ui/icons/Remove";
 const Projects = () => {
   const items = [
     {
+      cardTitle: "Using CloudFormation to create a CDN, Apigateway, Lambda, IAM Roles, S3 and Dynamo DB",
+      cardDetailedText: [
+        "AWS Project using diagram architecture",
+        "This project has 3 Apigateway endpoints (GET, POST, GET) exposed to consume a Dynamo table and files within S3",        
+        "Main idea was to have a website hosted in an S3 Bucket being consumed through a CloudFront",
+        "The infrastructure was provisioned using Cloudformation",
+        "Endpoints were consumed using Postman as well",
+        "Evidences, images, replication's scenarios and scripts were documented in the README file"
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+      technologies: ["CloudFormation", "AWS", "Lambda", "Python", "Bash", "CloudFront", "Apigateway", "S3", "DynamoDB", "IAM",],
+      links: [
+        {
+          url: "https://github.com/manveira/AWS_Project",
+          text: "View Source Code",
+        },
+      ],
+    },
+    {
       cardTitle: "Deploy Jenkins on EC2 AWS",
       cardDetailedText: [
         "Project to deploy CI/CD server Jenkins",
@@ -32,7 +52,7 @@ const Projects = () => {
           text: "View Source Code",
         },
       ],
-    },
+    },    
     {
       cardTitle: "Web app using Nginx",
       cardDetailedText: [

@@ -8,29 +8,57 @@ import WorkIcon from "@material-ui/icons/Work";
 export default function Experience() {
   const items = [
     {
-      date: "September 2022 - Present",
+      date: "September 2022 - Update",
       cardTitle: "DevOps Engineer",
       cardSubtitle: "LULOBANK",
       cardDetailedText: [
         "Management and use AWS's Cloud provider services range such as EC2, Lambda, S3, Apigateway, DynamoDB, RDS, Cloudwatch, IAM, ECS, EKS, Eventbridge, SQS, ASG, Batch, cognito, glue job, ECR, Elasticache, Systems Manager, secrets Manager, KMS, Step function, SNS, Security groups, Transit gateway, VPC, Subnet, Keycloak, ELB, NLB.",
-        "Creation, deployment and modularization whole bank's infrastructure using Terraform.",
+        "Creation, deployment and modularization bank's infrastructure using Terraform.",
         "Micro-services and enterprise apps containerization using Docker.",
-        "Orchestration dozens of containers using Kubernetes clusters.",
-        "Setting up CI/CD different workflows and repositories using Circle CI.",
-        "Management version control and repositories using Git and Github.",
+        "Orchestration dozens of containers using Kubernetes.",
+        "Setting up CI/CD different workflows using Circle CI and Jenkins.",
+        "Management version control using Git, Github and Bitbucket.",
         "Creation and running scripts using bash scripting.",
-        "Usage, installation, environment configuration and dependency handling for MacOS and Linux operating system based environments.",
-        "Control, core and review artifacts code using Jfrog.",
+        "Usage, installation, configuration and dependency handling for MacOS and Linux operating system based environments.",
+        "Control and review artifacts code using Jfrog.",
         "Setup and code quality analysis using SonarQube.",
+        "Query dispatching traces and observability within Kafka clusters.",
         "Planning, documentation, ticket management and collaborative teamwork using Atlassian, Jira and Confluence toolsets.",
+        "Create and manage Kafka clusters to communicate microservices, apps asynchronously.",
         "Coding and building functional software using Python and Java.",
         "Troubleshooting, analysis and debugging within different software lifecycle stages.",
         "Cross-team collaboration providing support for Technical Leaders, Developers, TAEs and other ones bank collaborators.",
         "Migration from ECS micro-services to AWS Kubernetes (EKS).",
+        "Orchestration and management using Helm and Openshift.",
+        "Configuration as a code with Ansible.",
+        "Monitoring and observability using Grafana and Prometheus.",                
+        "On-call management within production environment to incidents, tickets and ensure bank stability.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
+    {
+      date: "MARCH 2024 - SEPT 2024",
+      cardTitle: "Senior DevOps Developer",
+      cardSubtitle: "ALGAR TECH, AMADEUS CLIENT",
+      cardDetailedText: [
+        "Service orchestration and dependency management using Helm and Openshift.",
+        "Configuration as a code using AWX and Ansible.",
+        "CI/CD implementation and set up using Jenkins.",
+        "Distributed data transmission using Apache Kafka.",
+        "Monitoring and observability using Grafana, Prometheus, Thanos, Tempo, Jaeger and Splunk.",
+        "Image and database management using Mongo DB.",
+        "Platform and frontend catalog creation using Service Now",
+        "Version control and repository management using Bitbucket.",
+        "Workflows's creation, logic and requirements using Bash and Python.",
+        "Enterprise communication using Microsoft Teams.",
+        "Planning, documentation, and collaborative teamwork using Atlassian, Jira and Confluence toolsets.",
+        "Constant interaction for task development with teams located in London (UK), Bangalore (India) and Nice (France).",
+        "Troubleshooting, analysis and debugging On Call productive environment for Airline customers."        
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+    },    
     {
       date: "NOV 2021 - SEPT 2022",
       cardTitle: "System Administrator",

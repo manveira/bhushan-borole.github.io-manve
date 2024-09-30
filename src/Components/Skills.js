@@ -2,10 +2,10 @@ const Skills = () => {
 
   const skills = [
     "DevOps", "Cloud", "AWS", "Freelance", "Kubernetes", "Terraform", "Linux", 
-    "MacOs", "GitHub", "Git", "CI/CD", "Docker", "Circle CI", 
-    "Jenkins", "Bash", "GCP", "Python", "Java",
-    "GitLab", "Jfrog", "SonarQube", "Jira",
-    "Confluence", "ArgoCD", "Ansible",
+    "MacOs", "GitHub", "Git", "CI/CD", "Docker", "Circle CI", "Bitbucket", 
+    "Jenkins", "Bash", "Podman", "Python", "Java", "Helm", "Apache Kafka",
+    "Openshift", "Jfrog", "SonarQube", "Jira", "AWX", "Grafana", "Mongo DB",
+    "Confluence", "ArgoCD", "Ansible", "Splunk", "Prometheus", "Jaeger", "Service Now"
   ]
   return (
     <section id="skills" class="skills section-bg">
