@@ -56,6 +56,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+# To running and published the webpage, visit the link below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson 
