@@ -11,12 +11,6 @@ object-assign
 */
 
 /*!
-	Copyright (c) 2018 Jed Watson.
-	Licensed under the MIT License (MIT), see
-	http://jedwatson.github.io/classnames
-*/
-
-/*!
      * 
      *   typed.js - A JavaScript Typing Animation Library
      *   Author: Matt Boldt <me@mattboldt.com>
@@ -31,6 +25,12 @@ object-assign
     Based on code that is Copyright 2013-2015, Facebook, Inc.
     All rights reserved.
   */
+
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
 
 /**
  * A better abstraction over CSS.
